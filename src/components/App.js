@@ -1,6 +1,6 @@
 import React from 'react';
 import TopNavBar from './TopNavBar';
-// import Main from './Main';
+import Footer from './Footer';
 import Main from './Main';
 
 const App = () => {
@@ -8,6 +8,7 @@ const App = () => {
     <div className='App'>
       <TopNavBar />
       <Main />
+      <Footer />
     </div>
   );
 };

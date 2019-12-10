@@ -1,0 +1,21 @@
+.footer {
+  padding: 0px 0;
+}
+h4,
+.h4 {
+  font-size: 1.2em;
+  line-height: 1.1em;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+h4 + .category,
+h4.title + .category,
+.h4 + .category,
+.h4.title + .category {
+  margin-top: -10px;
+}
+.btn {
+  border-width: 1px;
+  padding: 11px 0.7rem;
+}
