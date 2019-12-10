@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import _ from 'lodash';
-import { ShotChart } from './ShotChart';
+import ShotChart from './ShotChart';
 import CountSlider from './CountSlider';
 import { Radio, Row, Col, Switch } from 'antd';
 
