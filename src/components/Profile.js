@@ -1,5 +1,6 @@
 import React from 'react';
 import { PROFILE_PIC_URL_PREFIX, TEAM_PIC_URL_PREFIX } from './constants';
+import ProfileList from './ProfileList';
 
 const Profile = props => {
   const {
@@ -23,39 +24,18 @@ const Profile = props => {
         src={`${PROFILE_PIC_URL_PREFIX}/${playerId}.png`}
         alt='Profile'
       />
-      <div className='profile-entry'>
-        <div className='profile-entry-left'>Team</div>
-        <div className='profile-entry-right'>{`${teamCity} ${teamName}`}</div>
-      </div>
+      <ProfileList property='Team' value={`${teamCity} ${teamName}`} />
       <img
         className='team-logo'
         src={`${TEAM_PIC_URL_PREFIX}/${teamAbbreviation}_logo.svg`}
         alt='Team'
       />
-      <div className='profile-entry'>
-        <div className='profile-entry-left'>Height</div>
-        <div className='profile-entry-right'>{`${height}`}</div>
-      </div>
-      <div className='profile-entry'>
-        <div className='profile-entry-left'>Weight</div>
-        <div className='profile-entry-right'>{`${weight}`}</div>
-      </div>
-      <div className='profile-entry'>
-        <div className='profile-entry-left'>PTS</div>
-        <div className='profile-entry-right'>{`${pts}`}</div>
-      </div>
-      <div className='profile-entry'>
-        <div className='profile-entry-left'>REB</div>
-        <div className='profile-entry-right'>{`${reb}`}</div>
-      </div>
-      <div className='profile-entry'>
-        <div className='profile-entry-left'>AST</div>
-        <div className='profile-entry-right'>{`${ast}`}</div>
-      </div>
-      <div className='profile-entry'>
-        <div className='profile-entry-left'>PIE</div>
-        <div className='profile-entry-right'>{`${pie}`}</div>
-      </div>
+      <ProfileList property='Height' value={`${height}`} />
+      <ProfileList property='Weight' value={`${weight}`} />
+      <ProfileList property='PTS' value={`${pts}`} />
+      <ProfileList property='REB' value={`${reb}`} />
+      <ProfileList property='AST' value={`${ast}`} />
+      <ProfileList property='PIE' value={`${pie}`} />
     </div>
   );
 };
