@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 import { ShotChart } from './ShotChart';
-import { CountSlider } from './CountSlider';
+import CountSlider from './CountSlider';
 import { Radio, Row, Col, Switch } from 'antd';
 
 const RadioGroup = Radio.Group;
