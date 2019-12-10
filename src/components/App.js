@@ -3,13 +3,13 @@ import TopNavBar from './TopNavBar';
 // import Main from './Main';
 import { Main } from './Main';
 
-function App() {
+const App = () => {
   return (
     <div className='App'>
       <TopNavBar />
       <Main />
     </div>
   );
-}
+};
 
 export default App;
