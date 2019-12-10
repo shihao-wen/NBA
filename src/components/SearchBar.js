@@ -47,7 +47,7 @@ export class SearchBar extends React.Component {
         <img
           className='player-option-image'
           src={`${PROFILE_PIC_URL_PREFIX}/${player.playerId}.png`}
-          alt=''
+          alt='https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/2544.png'
         />
         <span className='player-option-label'>{player.fullName}</span>
       </Option>
