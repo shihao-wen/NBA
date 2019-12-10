@@ -1,12 +1,12 @@
 import React from 'react';
-import {TopNavBar} from './TopNavBar';
-import {Main} from './Main';
+import { TopNavBar } from './TopNavBar';
+import { Main } from './Main';
 
 function App() {
   return (
-    <div className="App">
-        <TopNavBar />
-        <Main />
+    <div className='App'>
+      <TopNavBar />
+      <Main />
     </div>
   );
 }
