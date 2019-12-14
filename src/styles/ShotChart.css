@@ -2,7 +2,7 @@
 
 #shot-chart {
   width: 100%;
-  margin-top: -38px;
+  margin-top: -50px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -101,7 +101,7 @@ path.shot {
 .d3-tip {
   line-height: 1;
   font-weight: bold;
-  padding: 10px;
+  padding: 12px;
   background: #3070b0;
   color: #fff;
   border-radius: 2px;
@@ -113,6 +113,7 @@ path.shot {
   box-sizing: border-box;
   display: inline;
   font-size: 10px;
+  width: 100%;
   line-height: 1;
   color: #3070b0;
   position: absolute;
